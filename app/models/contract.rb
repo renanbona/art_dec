@@ -1,4 +1,6 @@
 class Contract < ApplicationRecord
+  extend Enumerize
+
   belongs_to :client
 
   validates :price, :status, :description, presence: true
