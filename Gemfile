@@ -55,13 +55,15 @@ end
 
 group :test do
   gem 'capybara', '>= 2.15'
+  gem 'capybara-screenshot'
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
   gem 'database_cleaner'
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
   gem 'rspec-html-matchers'
   gem 'vcr'
   gem 'webmock'
+  gem 'shoulda-matchers'
   gem 'rails-controller-testing'
 end
 
